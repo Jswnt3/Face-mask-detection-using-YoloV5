@@ -127,15 +127,10 @@ python detect.py
 
 ---
 
-## 🤝 Contribution
-Contributions are welcome.  
-Fork the repository and submit a pull request for enhancements or fixes.
-
----
-
 ## 👨‍💻 Author
 **Jaswanth Mudapaka**  
 B.Tech – Computer Science & Engineering
+LinkedIn - https://www.linkedin.com/in/jaswanth-mudapaka/
 
 ---
 
