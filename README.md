@@ -19,43 +19,43 @@ In crowded public environments, it is difficult for authorities to manually moni
 ---
 
 ## 🏗️ System Architecture
+
+```
 Input Sources
 ├── Image Files
 ├── Video Files
 └── Live Camera Feed
-     │
-     ▼
+    │
+    ▼
 Image Capture & Preprocessing
 ├── Frame Extraction
 ├── Image Resizing
 └── Normalization
-     │
-     ▼
+    │
+    ▼
 YOLOv5 Deep Learning Model
 ├── Feature Extraction
 ├── Object Detection
 └── Confidence Scoring
-     │
-     ▼
+    │
+    ▼
 Face Detection & Mask Classification
 ├── With Mask
 ├── Without Mask
 └── Incorrect Mask
-     │
-     ▼
+    │
+    ▼
 Bounding Box Generation
 ├── Face Localization
 └── Label Rendering
-     │
-     ▼
+    │
+    ▼
 Detection Logs
 └── SQL Database
     ├── Timestamp
     ├── Detection Class
     └── Source ID
-
-
----
+```
 
 ## 🧠 Technology Stack
 - **Programming Language:** Python
