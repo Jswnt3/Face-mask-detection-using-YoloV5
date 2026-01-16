@@ -1,21 +1,123 @@
-This project implements a real-time face mask detection system using the YOLOv5 (You Only Look Once) object detection model. It identifies whether a person is wearing a face mask or not, making it useful for monitoring public health compliance, especially in public places.
+# 😷 Face Mask Detection Using YOLOv5
 
-Features: 
-Real-time Detection: Detects people wearing or not wearing masks in real-time through video feeds or images.
-YOLOv5 Accuracy: Utilizes the YOLOv5 model for fast and accurate object detection.
-Scalable: Can be used for individual applications or deployed in public spaces with multiple cameras.
-Easy to Integrate: Can be easily integrated into existing security or monitoring systems.
+## 📌 Project Overview
+During the COVID-19 pandemic, ensuring mask compliance in public places became critical, yet manual monitoring is inefficient and unsafe. This project presents a **deep learning–based real-time face mask detection system** using **YOLOv5**, capable of accurately identifying whether individuals are wearing masks, not wearing masks, or wearing them incorrectly from images and live video streams.
 
-Technologies Used: 
-Framework: PyTorch
-Model: YOLOv5 (pre-trained and fine-tuned for face mask detection)
-Programming Language: Python
-Libraries: OpenCV, Numpy, Pandas, PyTorch
+---
 
-Dataset: 
-The model is trained on a custom dataset consisting of labeled images with and without face masks. click here to get dataset of with mask and without mask: https://drive.google.com/drive/folders/1H04Dw59A_7W-KVQes3XnXrQ3PIXiwmvX?usp=sharing
+## 🎯 Problem Statement
+In crowded public environments, it is difficult for authorities to manually monitor mask usage. This increases the risk of virus transmission and endangers both the public and enforcement personnel.
 
-Future Enhancements: 
-Improve detection accuracy by adding more diverse data to the training set.
-Implement multi-class detection to identify face masks, incorrect mask-wearing, and no masks.
-Deploy on edge devices like Raspberry Pi for low-cost real-time detection.
+---
+
+## ✅ Objectives
+- Detect faces in real time and classify them as **With Mask**, **Without Mask**, or **Incorrect Mask**
+- Achieve high detection accuracy with low latency
+- Minimize human involvement in compliance monitoring
+- Provide a scalable and deployable AI-based solution
+
+---
+
+## 🏗️ System Architecture
+Input (Image / Video / Camera)
+        |
+        v
+Image Capture & Preprocessing
+        |
+        v
+YOLOv5 Deep Learning Model
+        |
+        v
+Face Detection + Mask Classification
+        |
+        v
+Bounding Boxes with Labels
+        |
+        v
+Detection Logs stored in SQL Database
+
+---
+
+## 🧠 Technology Stack
+- **Programming Language:** Python
+- **Deep Learning Framework:** PyTorch
+- **Model:** YOLOv5 (One-stage Object Detector)
+- **Libraries:** OpenCV, NumPy, Pandas
+- **Database:** SQL (for structured detection logs)
+- **Tools:** Git, GitHub, Visual Studio Code
+
+---
+
+## ❓ Why YOLOv5?
+- Real-time object detection capability
+- High accuracy with optimized inference speed
+- Single-stage detection makes it suitable for live video feeds
+- Efficient handling of multiple faces in crowded scenes
+
+---
+
+## ❓ Why SQL Instead of NoSQL?
+SQL was chosen because:
+- Detection results follow a **structured schema** (timestamp, class label, camera ID)
+- Strong **data consistency and integrity** are required
+- Enables easy querying for reports, audits, and analytics
+- Suitable for compliance tracking and historical analysis
+
+---
+
+## ⚙️ Key Features
+- Real-time face mask detection
+- Supports images, videos, and live camera streams
+- Handles different mask types and lighting conditions
+- Accurate detection in single-person and crowd scenarios
+- Modular and scalable system design
+
+---
+
+## 🚀 Installation & Execution
+
+git clone https://github.com/your-username/Face-mask-detection-using-YOLOv5.git  
+cd Face-mask-detection-using-YOLOv5  
+pip install -r requirements.txt  
+python detect.py  
+
+---
+
+## 📊 Results & Performance
+- High precision and recall achieved at optimal training epochs
+- Reliable detection in real-world scenarios
+- Suitable for deployment in public surveillance systems
+
+*(Precision, Recall, and mAP analysis included in project report)*
+
+---
+
+## 🔮 Future Enhancements
+- Improve accuracy using larger and more diverse datasets
+- Deploy as a web or mobile application
+- Integrate alert and notification systems
+- Cloud deployment for large-scale monitoring
+- Edge-device optimization (Raspberry Pi, CCTV systems)
+
+---
+
+## ⚖️ Ethical Considerations
+- Ensures privacy by avoiding identity recognition
+- Designed for public safety, not surveillance misuse
+- Can be configured to comply with regional privacy regulations
+
+---
+
+## 🤝 Contribution
+Contributions are welcome.  
+Fork the repository and submit a pull request for enhancements or fixes.
+
+---
+
+## 👨‍💻 Author
+**Jaswanth Mudapaka**  
+B.Tech – Computer Science & Engineering  
+
+---
+
+⭐ If you find this project useful, please consider giving it a star.
