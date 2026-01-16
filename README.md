@@ -58,7 +58,7 @@ Detection Logs
 ```
 
 ## 🧠 Technology Stack
-- **Programming Language:** Python
+- **Programming Language:** Python, HTML5, CSS3, JavaScript
 - **Deep Learning Framework:** PyTorch
 - **Model:** YOLOv5 (One-stage Object Detector)
 - **Libraries:** OpenCV, NumPy, Pandas
