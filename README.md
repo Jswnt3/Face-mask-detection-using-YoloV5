@@ -1,4 +1,6 @@
-# Face Mask Detection Using YOLOv5 😷
+<h1 align="center">😷 𝗙𝗮𝗰𝗲 𝗠𝗮𝘀𝗸 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 𝘂𝘀𝗶𝗻𝗴 𝗬𝗢𝗟𝗢𝘃𝟱</h1>
+<p align="center"><i>Real-Time AI-Powered Mask Compliance System</i></p>
+
 
 ## 📌 Project Overview
 During the COVID-19 pandemic, ensuring mask compliance in public places became critical, yet manual monitoring is inefficient and unsafe. This project presents a **deep learning–based real-time face mask detection system** using **YOLOv5**, capable of accurately identifying whether individuals are wearing masks, not wearing masks, or wearing them incorrectly from images and live video streams.
