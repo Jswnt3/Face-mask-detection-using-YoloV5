@@ -3,10 +3,11 @@
 ## 📌 Project Overview
 During the COVID-19 pandemic, ensuring mask compliance in public places became critical, yet manual monitoring is inefficient and unsafe. This project presents a **deep learning–based real-time face mask detection system** using **YOLOv5**, capable of accurately identifying whether individuals are wearing masks, not wearing masks, or wearing them incorrectly from images and live video streams.
 
----
+
 
 ## 🎯 Problem Statement
 In crowded public environments, it is difficult for authorities to manually monitor mask usage. This increases the risk of virus transmission and endangers both the public and enforcement personnel.
+
 
 
 ## ✅ Objectives
@@ -15,7 +16,7 @@ In crowded public environments, it is difficult for authorities to manually moni
 - Minimize human involvement in compliance monitoring
 - Provide a scalable and deployable AI-based solution
 
----
+
 
 ## 🏗️ System Architecture
 
@@ -64,7 +65,7 @@ Detection Logs
 - **Database:** SQL (for structured detection logs)
 - **Tools:** Git, GitHub, Visual Studio Code
 
----
+
 
 ## ❓ Why YOLOv5?
 - Real-time object detection capability
@@ -72,7 +73,7 @@ Detection Logs
 - Single-stage detection makes it suitable for live video feeds
 - Efficient handling of multiple faces in crowded scenes
 
----
+
 
 ## ❓ Why SQL Instead of NoSQL?
 SQL was chosen because:
@@ -81,7 +82,7 @@ SQL was chosen because:
 - Enables easy querying for reports, audits, and analytics
 - Suitable for compliance tracking and historical analysis
 
----
+
 
 ## ⚙️ Key Features
 - Real-time face mask detection
@@ -90,7 +91,7 @@ SQL was chosen because:
 - Accurate detection in single-person and crowd scenarios
 - Modular and scalable system design
 
----
+
 
 ## 🚀 Installation & Execution
 
@@ -99,7 +100,7 @@ cd Face-mask-detection-using-YOLOv5
 pip install -r requirements.txt  
 python detect.py  
 
----
+
 
 ## 📊 Results & Performance
 - High precision and recall achieved at optimal training epochs
@@ -108,7 +109,7 @@ python detect.py
 
 *(Precision, Recall, and mAP analysis included in project report)*
 
----
+
 
 ## 🔮 Future Enhancements
 - Improve accuracy using larger and more diverse datasets
@@ -117,20 +118,19 @@ python detect.py
 - Cloud deployment for large-scale monitoring
 - Edge-device optimization (Raspberry Pi, CCTV systems)
 
----
 
 ## ⚖️ Ethical Considerations
 - Ensures privacy by avoiding identity recognition
 - Designed for public safety, not surveillance misuse
 - Can be configured to comply with regional privacy regulations
 
----
+
 
 ## 👨‍💻 Author
 **Jaswanth Mudapaka**  
 B.Tech – Computer Science & Engineering
 LinkedIn - https://www.linkedin.com/in/jaswanth-mudapaka/
 
----
+
 
 ⭐ If you find this project useful, please consider giving it a star.
