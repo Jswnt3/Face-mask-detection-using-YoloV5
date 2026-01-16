@@ -69,20 +69,23 @@ Detection Logs
 
 
 
-## ❓ Why YOLOv5?
-- Real-time object detection capability
-- High accuracy with optimized inference speed
-- Single-stage detection makes it suitable for live video feeds
-- Efficient handling of multiple faces in crowded scenes
+## ❓ Why YOLOv5 and Not Other Models?
 
+### Why YOLOv5?
+YOLOv5 was chosen because it offers an optimal balance between **real-time inference speed** and **high detection accuracy**, making it well-suited for live face mask detection in public environments.
 
+### Why not other models?
+- **Faster R-CNN:** Provides high accuracy but is computationally expensive and unsuitable for real-time detection  
+- **SSD:** Faster than R-CNN but less accurate when detecting small objects such as faces  
+- **YOLOv3 / YOLOv4:** Older architectures with slower inference and fewer optimizations  
+- **Traditional CNN classifiers:** Require separate face detection and classification stages, increasing system latency  
 
-## ❓ Why SQL Instead of NoSQL?
-SQL was chosen because:
-- Detection results follow a **structured schema** (timestamp, class label, camera ID)
-- Strong **data consistency and integrity** are required
-- Enables easy querying for reports, audits, and analytics
-- Suitable for compliance tracking and historical analysis
+### Key Advantages of YOLOv5
+- Single-stage, end-to-end object detection  
+- Fast inference suitable for real-time video streams  
+- Strong performance on small objects  
+- Easy deployment with active community support  
+
 
 
 
