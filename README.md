@@ -8,7 +8,6 @@ During the COVID-19 pandemic, ensuring mask compliance in public places became c
 ## 🎯 Problem Statement
 In crowded public environments, it is difficult for authorities to manually monitor mask usage. This increases the risk of virus transmission and endangers both the public and enforcement personnel.
 
----
 
 ## ✅ Objectives
 - Detect faces in real time and classify them as **With Mask**, **Without Mask**, or **Incorrect Mask**
