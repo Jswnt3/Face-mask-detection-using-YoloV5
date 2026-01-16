@@ -20,11 +20,10 @@ In crowded public environments, it is difficult for authorities to manually moni
 
 ## 🏗️ System Architecture
 Input (Image / Video / Camera)
-        -
+        →
         v
 Image Capture & Preprocessing
-        -
-        v
+        →
 YOLOv5 Deep Learning Model
         -
         v
