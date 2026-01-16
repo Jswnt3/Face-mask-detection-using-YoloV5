@@ -20,19 +20,19 @@ In crowded public environments, it is difficult for authorities to manually moni
 
 ## 🏗️ System Architecture
 Input (Image / Video / Camera)
-        |
+        -
         v
 Image Capture & Preprocessing
-        |
+        -
         v
 YOLOv5 Deep Learning Model
-        |
+        -
         v
 Face Detection + Mask Classification
-        |
+        -
         v
 Bounding Boxes with Labels
-        |
+        -
         v
 Detection Logs stored in SQL Database
 
@@ -116,7 +116,7 @@ Fork the repository and submit a pull request for enhancements or fixes.
 
 ## 👨‍💻 Author
 **Jaswanth Mudapaka**  
-B.Tech – Computer Science & Engineering  
+B.Tech – Computer Science & Engineering
 
 ---
 
