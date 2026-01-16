@@ -128,7 +128,7 @@ python detect.py
 
 ## 👨‍💻 Author
 **Jaswanth Mudapaka**  
-B.Tech – Computer Science & Engineering
+B.Tech – Computer Science & Engineering  
 LinkedIn - https://www.linkedin.com/in/jaswanth-mudapaka/
 
 
