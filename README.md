@@ -19,21 +19,41 @@ In crowded public environments, it is difficult for authorities to manually moni
 ---
 
 ## 🏗️ System Architecture
-Input (Image / Video / Camera)
-        →
-        v
+Input Sources
+├── Image Files
+├── Video Files
+└── Live Camera Feed
+     │
+     ▼
 Image Capture & Preprocessing
-        →
+├── Frame Extraction
+├── Image Resizing
+└── Normalization
+     │
+     ▼
 YOLOv5 Deep Learning Model
-        -
-        v
-Face Detection + Mask Classification
-        -
-        v
-Bounding Boxes with Labels
-        -
-        v
-Detection Logs stored in SQL Database
+├── Feature Extraction
+├── Object Detection
+└── Confidence Scoring
+     │
+     ▼
+Face Detection & Mask Classification
+├── With Mask
+├── Without Mask
+└── Incorrect Mask
+     │
+     ▼
+Bounding Box Generation
+├── Face Localization
+└── Label Rendering
+     │
+     ▼
+Detection Logs
+└── SQL Database
+    ├── Timestamp
+    ├── Detection Class
+    └── Source ID
+
 
 ---
 
@@ -75,7 +95,7 @@ SQL was chosen because:
 
 ## 🚀 Installation & Execution
 
-git clone [https://github.com/Jswnt3/Face-mask-detection-using-YoloV5.git]  
+git clone https://github.com/Jswnt3/Face-mask-detection-using-YoloV5.git  
 cd Face-mask-detection-using-YOLOv5  
 pip install -r requirements.txt  
 python detect.py  
